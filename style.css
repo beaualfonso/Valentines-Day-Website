@@ -1,0 +1,57 @@
+body {
+    background-color: #ffabb9;
+}
+
+.pikachu {
+    display: block;
+    margin:auto;
+    margin-top: 100px;
+    width: 550px;
+    height: 350px;
+}
+
+@font-face {
+    font-family: "ValentineFont";
+    src: url(Farmhouse\ Valentine\'s.otf);
+
+}
+@font-face {
+    font-family: "BubbleFont";
+    src: url(Love\ Buble.otf);
+}
+h1 {
+    font-size: 45px;
+    text-align: center;
+    font-family: ValentineFont;
+    color:#DE3163;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.yes_button {
+    background-color: #90EE90;
+    padding: 10px 20px;
+    font-size: 50px;
+    border-radius: 15px 15px;
+    font-family: BubbleFont;
+    border-color: #90EE90;
+    width: 100px;
+    height: 70px;
+    transform-origin: left;
+}
+
+.no_button {
+    background-color: #EE9090;
+    padding: 10px 20px;
+    font-size: 50px;
+    border-radius: 15px 15px;
+    font-family: BubbleFont;
+    border-color:#EE9090;
+    width: 100px;
+    height: 70px;
+    transform-origin: right;
+}
+
+
